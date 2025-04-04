@@ -119,3 +119,40 @@ body {
     background-size: cover;
     color: #fff;
 }
+
+/* Estilo del menú */
+nav {
+    background-color: #464646;
+    padding: 10px 0;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.menu li {
+    display: inline;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    border: 2px solid #007BFF; /* Borde al pasar el cursor */
+    background-color: #007BFF;
+    color: #fff;
+}
+.menu a.active {
+    border: 2px solid #FFD700; /* Borde dorado para el elemento seleccionado */
+    background-color: #333;
+    color: #FFD700;
+}
